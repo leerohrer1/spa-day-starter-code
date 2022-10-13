@@ -5,6 +5,17 @@
     <title></title>
 </head>
 <body>
-
+<form method="post">
+    <label>Username
+       <input type="text" th:text="${username}">
+    </label>
+    <label>Email Address
+        <input type="email" th:text="${email}">
+    </label>
+    <label>Password
+        <input type="password" th:text="${password}">
+    </label>
+    <input type="submit" value="Submit">
+</form>
 </body>
 </html>
